@@ -14,7 +14,7 @@ Here's some of my selected work:
 3. **[Drug Database Data Connection](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
     An analysis in Python that connects to three different data sources and abstracts pharmacy drug data for both data dictionary references and drug overview
     
-4. **[Hotel Bookings Prediction]((https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+4. **[Hotel Bookings Prediction](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
     An analysis in Pthon that creates a hotel prediction model. The model is to determine the likelihood of a canceled booking allowing a hotel to potentially book more rooms than available knowing that booking will be canceled. 
     
 5. **[Airlines Safety Visuals](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
