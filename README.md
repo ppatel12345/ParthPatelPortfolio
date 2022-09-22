@@ -26,6 +26,10 @@ Here's some of my selected work:
 
 8. **[Cardiovascular Disease Prediction Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
 
+9. **[Place Holder 1](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**
+
+10. **[Place Holder 2](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**    
+
 ## About Me
 
 This is about me
