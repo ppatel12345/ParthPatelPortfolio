@@ -1,0 +1,137 @@
+---
+title: "Cardiovascual Disease Prediction Model - ETL"
+author: "Parth Patel"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+---
+
+**Datasets**
+```{r, echo=FALSE, message=FALSE}
+
+library('knitr')
+
+#load data
+df_2 <- read.csv("Heart_Disease_Prediction.csv", header = TRUE)
+df_3 <- read.csv("heart_statlog_cleveland_hungary_final.csv", header = TRUE)
+
+
+df_2 <- transform(df_2, 'Heart.Disease'= ifelse(Heart.Disease=='Presence', 1, 0))
+
+
+#create subsets of 2 df that share more similar columns
+df_2.sub2 = subset(df_2, select = c(Sex, Cholesterol, FBS.over.120, Max.HR, Exercise.angina, Chest.pain.type, ST.depression, Heart.Disease))
+df_3.sub2 = subset(df_3, select = c(sex, cholesterol, fasting.blood.sugar, max.heart.rate, exercise.angina, chest.pain.type, oldpeak, target))
+
+names(df_3.sub2)[names(df_3.sub2) == "target"] <- "cvd"
+names(df_3.sub2)[names(df_3.sub2) == "oldpeak"] <- "ST.depression"
+
+names(df_2.sub2)[names(df_2.sub2) == "Sex"] <- "sex"
+names(df_2.sub2)[names(df_2.sub2) == "Cholesterol"] <- "cholesterol"
+names(df_2.sub2)[names(df_2.sub2) == "FBS.over.120"] <- "fasting.blood.sugar"
+names(df_2.sub2)[names(df_2.sub2) == "Max.HR"] <- "max.heart.rate"
+names(df_2.sub2)[names(df_2.sub2) == "Exercise.angina"] <- "exercise.angina"
+names(df_2.sub2)[names(df_2.sub2) == "Chest.pain.type"] <- "chest.pain.type"
+names(df_2.sub2)[names(df_2.sub2) == "Heart.Disease"] <- "cvd"
+
+#second union
+df_main2 <- rbind(df_2.sub2, df_3.sub2)
+
+df_main2f <- df_main2
+
+df_main2f$cvd <- as.factor(df_main2f$cvd)
+df_main2f$fasting.blood.sugar <- as.factor(df_main2f$fasting.blood.sugar)
+df_main2f$exercise.angina <- as.factor(df_main2f$exercise.angina)
+df_main2f$chest.pain.type <- as.factor(df_main2f$chest.pain.type)
+df_main2f$sex <- as.factor(df_main2f$sex)
+
+
+kable(head(df_main2f),caption = "Main 2 (Two Combined Datasets Sample)")
+
+
+```
+
+**Graphs**
+```{r, echo=FALSE, message=FALSE}
+library('ggplot2')
+library('vcd')
+
+
+age_table <- structable(~ sex + cvd, data=df_main2f)
+mosaic(age_table, 
+       main="Sex vs. CVD", 
+       pop=FALSE,      
+       set_labels=list(sex = c("F", "M"), 
+                       cvd = c("No", "Yes")
+                       )
+       )
+labeling_cells(text = as.table(age_table), margin = 0)(as.table(age_table))
+
+angina_table <- structable(~ exercise.angina + cvd, data=df_main2f)
+mosaic(angina_table, 
+       main="Exercise Induced Angina vs. CVD", 
+       pop=FALSE,
+       set_labels=list(exercise.angina = c("No", "Yes"), 
+                       cvd = c("No", "Yes")
+                       )
+       )
+labeling_cells(text = as.table(angina_table), margin = 0)(as.table(angina_table))
+
+fbs_table <- structable(~ fasting.blood.sugar + cvd, data=df_main2f)
+mosaic(fbs_table, 
+       main="FBS > 120 vs. CVD", 
+       pop=FALSE,
+       set_labels=list(fasting.blood.sugar = c("No", "Yes"), 
+                       cvd = c("No", "Yes")
+                       )
+       )
+labeling_cells(text = as.table(fbs_table), margin = 0)(as.table(fbs_table))
+
+cp_table <- structable(~ chest.pain.type + cvd, data=df_main2f)
+mosaic(cp_table, main="Chest Pain Type vs. CVD", pop=FALSE)
+labeling_cells(text = as.table(cp_table), margin = 0)(as.table(cp_table))
+
+
+
+
+###### DF2 MAIN ######
+
+ggplot(df_main2f, aes(x=cvd, y=cholesterol)) + 
+    geom_point() + 
+    geom_boxplot() + 
+    xlab("CVD") + 
+    ylab("Cholesterol (mg/dL)") +
+    ggtitle("CVD vs Cholesterol") + 
+    theme(plot.title = element_text(hjust = 0.5))
+
+
+ggplot(df_main2f, aes(x=cvd, y=max.heart.rate)) + 
+    geom_point() + 
+    geom_boxplot() + 
+    xlab("CVD") + 
+    ylab("Heart Rate (bpm)") +
+    ggtitle("CVD vs Max Heart Rate") + 
+    theme(plot.title = element_text(hjust = 0.5))
+
+
+
+```
+
+
+**Correlation Tests**
+```{r, echo=FALSE}
+library('knitr')
+library('class')
+library('caTools')
+
+kable(cor(df_main2),caption = "Correlation of Main 2")
+
+```
+
+
+```{r}
+write.csv(df_main2,"C:\\Users\\pvpatel\\Desktop\\DSC680\\Project 1\\df_final.csv", row.names = FALSE)
+
+```
