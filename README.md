@@ -8,7 +8,7 @@ Here's some of my selected work:
 1. **[Weather Application](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
     Weather application in Python that tells the user the weather of the city based on the user's unput of zipcode or city name. 
     
-2. **[Are Men Healthier Than Women?](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+2. **[Are Men Healthier Than Women?](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/AreMenHealthierThanWomen)**  
     An analysis in Python that utilizes patients with and without cardiovascual diseases. The project involves looking at different health metrics and seeing if men are healthier than women.
 
 3. **[Drug Database Data Connection](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
