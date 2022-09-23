@@ -11,18 +11,18 @@ Here's some of my selected work:
 2. **[Are Men Healthier Than Women?](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/AreMenHealthierThanWomen)**  
     An analysis in Python that utilizes patients with and without cardiovascual diseases. The project involves looking at different health metrics and seeing if men are healthier than women.
 
-3. **[Drug Database Data Connection](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+3. **[Drug Database Data Connection](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/DrugDatabaseDataConnection)**  
     An analysis in Python that connects to three different data sources and abstracts pharmacy drug data for both data dictionary references and drug overview
     
-4. **[Hotel Bookings Prediction](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+4. **[Hotel Bookings Prediction](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/HotelBookingsPrediction)**  
     An analysis in Pthon that creates a hotel prediction model. The model is to determine the likelihood of a canceled booking allowing a hotel to potentially book more rooms than available knowing that booking will be canceled. 
     
-5. **[Airlines Safety Visuals](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+5. **[Airlines Safety Visuals](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/AirlinesSafetyVisuals)**  
     A visual demonstration of airline saftey in Microsoft PowerBI.
 
-6. **[Drug File Data Load](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+6. **[Drug File Data Load](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/DrugFileDataLoad)**  
 
-7. **[Septic Alcoholics Data Abstraction](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+7. **[Septic Alcoholics Data Abstraction](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/SepticAlcoholicsDataAbstraction)**  
 
 8. **[Cardiovascular Disease Prediction Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
 
