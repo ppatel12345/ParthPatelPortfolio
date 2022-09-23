@@ -24,7 +24,7 @@ Here's some of my selected work:
 
 7. **[Septic Alcoholics Data Abstraction](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/SepticAlcoholicsDataAbstraction)**  
 
-8. **[Cardiovascular Disease Prediction Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**  
+8. **[Cardiovascular Disease Prediction Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/CVDsPredictionModel)**  
 
 9. **[Place Holder 1](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**
 
