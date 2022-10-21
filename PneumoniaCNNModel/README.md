@@ -1,2 +1,2 @@
-CNN Model
-data is from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+CNN Model:
+Data is from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
