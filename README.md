@@ -27,9 +27,11 @@ Here's some of my selected work:
  A SQL data query that utilizes different partition statements and data abstraction queries to gather all the necessary data for a retrospective research analysis 
 
 8. **[Cardiovascular Disease Prediction Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/CVDsPredictionModel)** 
+
 An analysis in Python and ETL in R demonstrating a cardiovascular prediction model on the occurrence of the disease within a population. 
 
 9. **[Pneumonia Classification from Chest X-rays Using Deep Learning CNN Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**
+
 A CNN model using chest x-ray imaging to classify Pneumonia or healthy lungs. Acurracy and sample testing performed. 
 
 10. **[Place Holder 2](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**    
