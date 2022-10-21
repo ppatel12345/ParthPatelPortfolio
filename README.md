@@ -1,6 +1,6 @@
 # This repository is for [**Parth Patel's** Projects](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main)
 
-# ABOUT
+## About Me
 
 Hello my name is Parth Patel and I am an ethusiastic and driven nurse who happens to also program. I enjoy both the medical field and technology at the same time. I have  a specific interest in emergency and critical care medicine along with pharmacy medication utilization. My projects below demonstrate both my skillset as a data scientist but also my interests and passion projects. I truly enjoy exploring data and finding insights. 
 
@@ -45,6 +45,6 @@ A CNN model using chest x-ray imaging to classify Pneumonia or healthy lungs. Ac
 
 **[Place Holder 2](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**    
 
-## About Me
+## Contact
 
-This is about me
+ppatel@my365.bellevue.edu
