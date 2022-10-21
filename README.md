@@ -1,6 +1,6 @@
 # This repository is for [**Parth Patel's** Projects](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main)
 
-Hello I am Parth
+Hello my name is Parth Patel and I am an ethusiastic and driven nurse who happens to also program. I enjoy both the medical field and technology at the same time. I have  a specific interest in emergency and critical care medicine along with pharmacy medication utilization. My projects below demonstrate both my skillset as a data scientist but also my interests and passion projects. I truly enjoy exploring data and finding insights. 
 
 ## Portfolio
 
