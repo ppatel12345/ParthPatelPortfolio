@@ -38,7 +38,7 @@ A SQL data query that utilizes different partition statements and data abstracti
 
 An analysis in Python and ETL in R demonstrating a cardiovascular prediction model on the occurrence of the disease within a population. 
 
-**[Pneumonia Classification from Chest X-rays Using Deep Learning CNN Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**
+**[Pneumonia Classification from Chest X-rays Using Deep Learning CNN Model](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/PneumoniaCNNModel)**
 
 A CNN model using chest x-ray imaging to classify Pneumonia or healthy lungs. Acurracy and sample testing performed. 
 
