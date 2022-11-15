@@ -42,7 +42,9 @@ An analysis in Python and ETL in R demonstrating a cardiovascular prediction mod
 
 A CNN model using chest x-ray imaging to classify Pneumonia or healthy lungs. Acurracy and sample testing performed. 
 
-**[SOFA Score Builder from Critix Metavision ICU SQL Database](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/SOFAScoreBuilder)**    
+**[SOFA Score Builder from Critix Metavision ICU SQL Database](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/SOFAScoreBuilder)**
+
+A use case in SQL creating a Sequential Organ Failure Assessment (SOFA) score from a Critix Metavision ICU SQL database. Scores are based on modifiable time intervals.
 
 ## Contact
 
