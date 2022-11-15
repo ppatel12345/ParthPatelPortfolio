@@ -42,7 +42,7 @@ An analysis in Python and ETL in R demonstrating a cardiovascular prediction mod
 
 A CNN model using chest x-ray imaging to classify Pneumonia or healthy lungs. Acurracy and sample testing performed. 
 
-**[Place Holder 2](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/WeatherApplication)**    
+**[SOFA Score Builder from Critix Metavision ICU SQL Database](https://github.com/ppatel12345/ParthPatelPortfolio/tree/main/SOFAScoreBuilder)**    
 
 ## Contact
 
