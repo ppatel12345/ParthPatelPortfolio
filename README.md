@@ -48,4 +48,4 @@ A use case in SQL creating a Sequential Organ Failure Assessment (SOFA) score fr
 
 ## Contact
 
-ppatel@my365.bellevue.edu
+Email: ppatel@my365.bellevue.edu
